@@ -1,0 +1,50 @@
+{
+  "colors": [
+    {
+      "hex": "#E5E7EB",
+      "instances": 2450
+    },
+    {
+      "hex": "#E2E8F0",
+      "instances": 230
+    },
+    {
+      "hex": "#FFFFFF1A",
+      "instances": 115
+    },
+    {
+      "hex": "#FFFFFF",
+      "instances": 25
+    },
+    {
+      "hex": "#0EA5E94D",
+      "instances": 5
+    },
+    {
+      "hex": "#FFFFFF26",
+      "instances": 5
+    },
+    {
+      "hex": "#FFFFFF0D",
+      "instances": 5
+    },
+    {
+      "hex": "#FFFFFF33",
+      "instances": 5
+    },
+    {
+      "hex": "#00000033",
+      "instances": 5
+    },
+    {
+      "hex": "#0000000D",
+      "instances": 5
+    },
+    {
+      "hex": "#9A9A9A",
+      "instances": 5
+    }
+  ],
+  "total": 11,
+  "exportedAt": "2026-01-01T19:25:14.723Z"
+}

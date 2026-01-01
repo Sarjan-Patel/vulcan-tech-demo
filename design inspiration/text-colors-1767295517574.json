@@ -1,0 +1,110 @@
+{
+  "colors": [
+    {
+      "hex": "#FFFFFF",
+      "instances": 214
+    },
+    {
+      "hex": "#000000",
+      "instances": 127
+    },
+    {
+      "hex": "#E2E8F0CC",
+      "instances": 84
+    },
+    {
+      "hex": "#CBD5E1",
+      "instances": 26
+    },
+    {
+      "hex": "#94A3B8",
+      "instances": 13
+    },
+    {
+      "hex": "#CBD5E1CC",
+      "instances": 13
+    },
+    {
+      "hex": "#FFFFFF99",
+      "instances": 13
+    },
+    {
+      "hex": "#FFFFFFD9",
+      "instances": 11
+    },
+    {
+      "hex": "#00000080",
+      "instances": 11
+    },
+    {
+      "hex": "#E2E8F0D9",
+      "instances": 10
+    },
+    {
+      "hex": "#E2E8F0B3",
+      "instances": 9
+    },
+    {
+      "hex": "#FFFFFFB3",
+      "instances": 8
+    },
+    {
+      "hex": "#000000E0",
+      "instances": 6
+    },
+    {
+      "hex": "#CBD5E1BF",
+      "instances": 4
+    },
+    {
+      "hex": "#0F172A",
+      "instances": 3
+    },
+    {
+      "hex": "#38BDF8",
+      "instances": 3
+    },
+    {
+      "hex": "#6EE7B7",
+      "instances": 2
+    },
+    {
+      "hex": "#D8B4FE",
+      "instances": 2
+    },
+    {
+      "hex": "#FFFFFFCC",
+      "instances": 2
+    },
+    {
+      "hex": "#020617",
+      "instances": 1
+    },
+    {
+      "hex": "#94A3B8B3",
+      "instances": 1
+    },
+    {
+      "hex": "#7DD3FC",
+      "instances": 1
+    },
+    {
+      "hex": "#FCD34D",
+      "instances": 1
+    },
+    {
+      "hex": "#67E8F9",
+      "instances": 1
+    },
+    {
+      "hex": "#FCA5A5",
+      "instances": 1
+    },
+    {
+      "hex": "#191408",
+      "instances": 1
+    }
+  ],
+  "total": 26,
+  "exportedAt": "2026-01-01T19:25:17.573Z"
+}

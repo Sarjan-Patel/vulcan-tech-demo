@@ -1,0 +1,270 @@
+{
+  "colors": [
+    {
+      "hex": "#0A1322",
+      "instances": 101
+    },
+    {
+      "hex": "#000000",
+      "instances": 101
+    },
+    {
+      "hex": "#FFFFFF99",
+      "instances": 18
+    },
+    {
+      "hex": "#FFFFFF",
+      "instances": 10
+    },
+    {
+      "hex": "#FFFFFF05",
+      "instances": 9
+    },
+    {
+      "hex": "#FFFFFF0A",
+      "instances": 6
+    },
+    {
+      "hex": "#00000066",
+      "instances": 5
+    },
+    {
+      "hex": "#FFFFFF08",
+      "instances": 3
+    },
+    {
+      "hex": "#FFFFFF0D",
+      "instances": 2
+    },
+    {
+      "hex": "#38BDF8",
+      "instances": 2
+    },
+    {
+      "hex": "#FBF9F6B3",
+      "instances": 2
+    },
+    {
+      "hex": "#02061759",
+      "instances": 1
+    },
+    {
+      "hex": "#0EA5E933",
+      "instances": 1
+    },
+    {
+      "hex": "#34D399",
+      "instances": 1
+    },
+    {
+      "hex": "#C084FC",
+      "instances": 1
+    },
+    {
+      "hex": "#020617B3",
+      "instances": 1
+    },
+    {
+      "hex": "#050B18",
+      "instances": 1
+    },
+    {
+      "hex": "#00000033",
+      "instances": 1
+    },
+    {
+      "hex": "#FBF9F6CC",
+      "instances": 1
+    },
+    {
+      "hex": "#0000000A",
+      "instances": 1
+    },
+    {
+      "hex": "#FFF2F0",
+      "instances": 1
+    },
+    {
+      "hex": "#FFFBE6",
+      "instances": 1
+    },
+    {
+      "hex": "#F5F5F5",
+      "instances": 1
+    },
+    {
+      "hex": "#000000CC",
+      "instances": 1
+    },
+    {
+      "hex": "#60A5FA",
+      "instances": 1
+    },
+    {
+      "hex": "#3B82F633",
+      "instances": 1
+    },
+    {
+      "hex": "#06B6D4",
+      "instances": 1
+    },
+    {
+      "hex": "#34D39933",
+      "instances": 1
+    },
+    {
+      "hex": "#10B98133",
+      "instances": 1
+    },
+    {
+      "hex": "#4B5563",
+      "instances": 1
+    },
+    {
+      "hex": "#374151",
+      "instances": 1
+    },
+    {
+      "hex": "#111827",
+      "instances": 1
+    },
+    {
+      "hex": "#22C55E33",
+      "instances": 1
+    },
+    {
+      "hex": "#16A34A",
+      "instances": 1
+    },
+    {
+      "hex": "#0066CC33",
+      "instances": 1
+    },
+    {
+      "hex": "#6B46C133",
+      "instances": 1
+    },
+    {
+      "hex": "#F973161A",
+      "instances": 1
+    },
+    {
+      "hex": "#EC4899",
+      "instances": 1
+    },
+    {
+      "hex": "#A855F733",
+      "instances": 1
+    },
+    {
+      "hex": "#EF444433",
+      "instances": 1
+    },
+    {
+      "hex": "#334155",
+      "instances": 1
+    },
+    {
+      "hex": "#1E293B80",
+      "instances": 1
+    },
+    {
+      "hex": "#0F172A",
+      "instances": 1
+    },
+    {
+      "hex": "#020617F2",
+      "instances": 1
+    },
+    {
+      "hex": "#F59E0B",
+      "instances": 1
+    },
+    {
+      "hex": "#10B981",
+      "instances": 1
+    },
+    {
+      "hex": "#0080FF33",
+      "instances": 1
+    },
+    {
+      "hex": "#0A1628B3",
+      "instances": 1
+    },
+    {
+      "hex": "#0A1628D9",
+      "instances": 1
+    },
+    {
+      "hex": "#0C121CF2",
+      "instances": 1
+    },
+    {
+      "hex": "#FFFFFF1A",
+      "instances": 1
+    },
+    {
+      "hex": "#FFFFFF4D",
+      "instances": 1
+    },
+    {
+      "hex": "#1E293B66",
+      "instances": 1
+    },
+    {
+      "hex": "#1E293B73",
+      "instances": 1
+    },
+    {
+      "hex": "#141F33E6",
+      "instances": 1
+    },
+    {
+      "hex": "#00000099",
+      "instances": 1
+    },
+    {
+      "hex": "#FFFFFF0F",
+      "instances": 1
+    },
+    {
+      "hex": "#8B5CF626",
+      "instances": 1
+    },
+    {
+      "hex": "#FFFFFF14",
+      "instances": 1
+    },
+    {
+      "hex": "#0000003D",
+      "instances": 1
+    },
+    {
+      "hex": "#0FCCCE",
+      "instances": 1
+    },
+    {
+      "hex": "#E3E4E5",
+      "instances": 1
+    },
+    {
+      "hex": "#ECECF133",
+      "instances": 1
+    },
+    {
+      "hex": "#BADA55",
+      "instances": 1
+    },
+    {
+      "hex": "#F0DC46",
+      "instances": 1
+    },
+    {
+      "hex": "#FBDA5F",
+      "instances": 1
+    }
+  ],
+  "total": 66,
+  "exportedAt": "2026-01-01T19:25:20.390Z"
+}

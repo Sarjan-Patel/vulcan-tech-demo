@@ -1,0 +1,225 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* Custom theme based on design inspiration files */
+@theme inline {
+  /* Brand Colors */
+  --color-brand: #38BDF8;
+  --color-brand-alpha: #0EA5E94D;
+
+  /* Background Colors (Dark Theme) */
+  --color-bg-primary: #0A1322;
+  --color-bg-secondary: #000000;
+  --color-bg-elevated: #0F172A;
+  --color-bg-card: #020617;
+  --color-bg-subtle: #050B18;
+
+  /* Text Colors */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #CBD5E1;
+  --color-text-muted: #94A3B8;
+  --color-text-subtle: #E2E8F0CC;
+
+  /* Border Colors */
+  --color-border-default: #FFFFFF1A;
+  --color-border-strong: #FFFFFF33;
+  --color-border-light: #E5E7EB;
+
+  /* Status Colors */
+  --color-status-success: #6EE7B7;
+  --color-status-success-dark: #34D399;
+  --color-status-warning: #FCD34D;
+  --color-status-error: #FCA5A5;
+  --color-status-info: #7DD3FC;
+
+  /* Accent Colors */
+  --color-accent-purple: #D8B4FE;
+  --color-accent-purple-dark: #C084FC;
+  --color-accent-cyan: #67E8F9;
+
+  /* Jurisdiction Colors for Graph */
+  --color-federal: #3B82F6;
+  --color-state: #10B981;
+  --color-municipal: #F59E0B;
+
+  /* Fonts */
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+
+  /* Animations */
+  --animate-fade-in: fade-in 0.5s ease-out;
+  --animate-slide-up: slide-up 0.3s ease-out;
+  --animate-pulse-slow: pulse 3s ease-in-out infinite;
+
+  /* shadcn/ui mappings */
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection styling */
+::selection {
+  background: var(--color-brand-alpha);
+  color: var(--color-text-primary);
+}
+
+/* Scrollbar styling for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border-strong);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-muted);
+}
+
+/* React Flow custom styles */
+.react-flow__node {
+  border-radius: 8px;
+}
+
+.react-flow__edge-path {
+  stroke: var(--color-border-strong);
+  stroke-width: 2;
+}
+
+.react-flow__controls {
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border-default);
+  border-radius: 8px;
+}
+
+.react-flow__controls-button {
+  background: var(--color-bg-card);
+  border-bottom: 1px solid var(--color-border-default);
+  fill: var(--color-text-secondary);
+}
+
+.react-flow__controls-button:hover {
+  background: var(--color-bg-elevated);
+}
+
+.react-flow__minimap {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border-default);
+  border-radius: 8px;
+}
+
+/* Dark theme by default - using our custom colors */
+:root {
+  --radius: 0.625rem;
+  /* Map to our dark design system */
+  --background: #0A1322;
+  --foreground: #FFFFFF;
+  --card: #020617;
+  --card-foreground: #FFFFFF;
+  --popover: #0F172A;
+  --popover-foreground: #FFFFFF;
+  --primary: #38BDF8;
+  --primary-foreground: #0A1322;
+  --secondary: #0F172A;
+  --secondary-foreground: #CBD5E1;
+  --muted: #0F172A;
+  --muted-foreground: #94A3B8;
+  --accent: #0F172A;
+  --accent-foreground: #CBD5E1;
+  --destructive: #FCA5A5;
+  --border: #FFFFFF1A;
+  --input: #FFFFFF1A;
+  --ring: #38BDF8;
+  --chart-1: #38BDF8;
+  --chart-2: #6EE7B7;
+  --chart-3: #D8B4FE;
+  --chart-4: #FCD34D;
+  --chart-5: #67E8F9;
+  --sidebar: #020617;
+  --sidebar-foreground: #FFFFFF;
+  --sidebar-primary: #38BDF8;
+  --sidebar-primary-foreground: #0A1322;
+  --sidebar-accent: #0F172A;
+  --sidebar-accent-foreground: #CBD5E1;
+  --sidebar-border: #FFFFFF1A;
+  --sidebar-ring: #38BDF8;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+  }
+}

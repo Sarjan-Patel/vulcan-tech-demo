@@ -1,0 +1,202 @@
+{
+  "colors": [
+    {
+      "hex": "#E5E7EB",
+      "instances": 2450
+    },
+    {
+      "hex": "#FFFFFF",
+      "instances": 249
+    },
+    {
+      "hex": "#E2E8F0",
+      "instances": 230
+    },
+    {
+      "hex": "#000000",
+      "instances": 228
+    },
+    {
+      "hex": "#FFFFFF1A",
+      "instances": 115
+    },
+    {
+      "hex": "#0A1322",
+      "instances": 101
+    },
+    {
+      "hex": "#E2E8F0CC",
+      "instances": 84
+    },
+    {
+      "hex": "#FFFFFF99",
+      "instances": 31
+    },
+    {
+      "hex": "#CBD5E1",
+      "instances": 26
+    },
+    {
+      "hex": "#94A3B8",
+      "instances": 13
+    },
+    {
+      "hex": "#CBD5E1CC",
+      "instances": 13
+    },
+    {
+      "hex": "#FFFFFFD9",
+      "instances": 11
+    },
+    {
+      "hex": "#00000080",
+      "instances": 11
+    },
+    {
+      "hex": "#E2E8F0D9",
+      "instances": 10
+    },
+    {
+      "hex": "#FFFFFF05",
+      "instances": 9
+    },
+    {
+      "hex": "#E2E8F0B3",
+      "instances": 9
+    },
+    {
+      "hex": "#FFFFFFB3",
+      "instances": 8
+    },
+    {
+      "hex": "#FFFFFF0D",
+      "instances": 7
+    },
+    {
+      "hex": "#FFFFFF0A",
+      "instances": 6
+    },
+    {
+      "hex": "#00000033",
+      "instances": 6
+    },
+    {
+      "hex": "#000000E0",
+      "instances": 6
+    },
+    {
+      "hex": "#38BDF8",
+      "instances": 5
+    },
+    {
+      "hex": "#0EA5E94D",
+      "instances": 5
+    },
+    {
+      "hex": "#FFFFFF26",
+      "instances": 5
+    },
+    {
+      "hex": "#00000066",
+      "instances": 5
+    },
+    {
+      "hex": "#FFFFFF33",
+      "instances": 5
+    },
+    {
+      "hex": "#0000000D",
+      "instances": 5
+    },
+    {
+      "hex": "#9A9A9A",
+      "instances": 5
+    },
+    {
+      "hex": "#CBD5E1BF",
+      "instances": 4
+    },
+    {
+      "hex": "#0F172A",
+      "instances": 3
+    },
+    {
+      "hex": "#FFFFFF08",
+      "instances": 3
+    },
+    {
+      "hex": "#6EE7B7",
+      "instances": 2
+    },
+    {
+      "hex": "#D8B4FE",
+      "instances": 2
+    },
+    {
+      "hex": "#FFFFFFCC",
+      "instances": 2
+    },
+    {
+      "hex": "#FBF9F6B3",
+      "instances": 2
+    },
+    {
+      "hex": "#02061759",
+      "instances": 1
+    },
+    {
+      "hex": "#020617",
+      "instances": 1
+    },
+    {
+      "hex": "#0EA5E933",
+      "instances": 1
+    },
+    {
+      "hex": "#94A3B8B3",
+      "instances": 1
+    },
+    {
+      "hex": "#7DD3FC",
+      "instances": 1
+    },
+    {
+      "hex": "#FCD34D",
+      "instances": 1
+    },
+    {
+      "hex": "#67E8F9",
+      "instances": 1
+    },
+    {
+      "hex": "#34D399",
+      "instances": 1
+    },
+    {
+      "hex": "#C084FC",
+      "instances": 1
+    },
+    {
+      "hex": "#020617B3",
+      "instances": 1
+    },
+    {
+      "hex": "#FCA5A5",
+      "instances": 1
+    },
+    {
+      "hex": "#050B18",
+      "instances": 1
+    },
+    {
+      "hex": "#FBF9F6CC",
+      "instances": 1
+    },
+    {
+      "hex": "#191408",
+      "instances": 1
+    }
+  ],
+  "total": 49,
+  "exportedAt": "2026-01-01T19:25:26.557Z"
+}
