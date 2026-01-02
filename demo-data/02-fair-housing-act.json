@@ -1,0 +1,25 @@
+{
+  "title": "Fair Housing Act",
+  "citation": "42 U.S.C. § 3604",
+  "jurisdiction": "federal",
+  "authorityLevel": "statute",
+  "effectiveFrom": "1968-04-11",
+  "text": "The Fair Housing Act prohibits discrimination in the sale, rental, and financing of housing based on race, color, national origin, religion, sex, familial status, and disability. This landmark civil rights legislation ensures equal housing opportunity for all Americans.",
+  "sections": [
+    {
+      "heading": "Discrimination in Sale or Rental of Housing",
+      "citation": "42 U.S.C. § 3604(a)",
+      "text": "It shall be unlawful to refuse to sell or rent after the making of a bona fide offer, or to refuse to negotiate for the sale or rental of, or otherwise make unavailable or deny, a dwelling to any person because of race, color, religion, sex, familial status, or national origin. This section establishes the core prohibition against housing discrimination and applies to most housing transactions in the United States."
+    },
+    {
+      "heading": "Discrimination in Terms and Conditions",
+      "citation": "42 U.S.C. § 3604(b)",
+      "text": "It shall be unlawful to discriminate against any person in the terms, conditions, or privileges of sale or rental of a dwelling, or in the provision of services or facilities in connection therewith, because of race, color, religion, sex, familial status, or national origin. This includes differential pricing, different lease terms, or providing different levels of service based on protected characteristics."
+    },
+    {
+      "heading": "Discriminatory Advertising",
+      "citation": "42 U.S.C. § 3604(c)",
+      "text": "It shall be unlawful to make, print, or publish, or cause to be made, printed, or published any notice, statement, or advertisement, with respect to the sale or rental of a dwelling that indicates any preference, limitation, or discrimination based on race, color, religion, sex, handicap, familial status, or national origin, or an intention to make any such preference, limitation, or discrimination."
+    }
+  ]
+}

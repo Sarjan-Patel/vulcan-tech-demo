@@ -1,0 +1,20 @@
+{
+  "title": "Civil Rights Act - Section 1983",
+  "citation": "42 U.S.C. § 1983",
+  "jurisdiction": "federal",
+  "authorityLevel": "statute",
+  "effectiveFrom": "1871-04-20",
+  "text": "Section 1983 provides a federal cause of action against any person who, acting under color of state law, deprives another of rights guaranteed by the Constitution or federal laws. This statute is the primary means for enforcing constitutional rights against state and local government officials.",
+  "sections": [
+    {
+      "heading": "Civil Action for Deprivation of Rights",
+      "citation": "42 U.S.C. § 1983",
+      "text": "Every person who, under color of any statute, ordinance, regulation, custom, or usage, of any State or Territory or the District of Columbia, subjects, or causes to be subjected, any citizen of the United States or other person within the jurisdiction thereof to the deprivation of any rights, privileges, or immunities secured by the Constitution and laws, shall be liable to the party injured in an action at law, suit in equity, or other proper proceeding for redress. This section allows individuals to sue state and local officials who violate their constitutional rights, including property rights, due process, and equal protection."
+    },
+    {
+      "heading": "Municipal Liability",
+      "citation": "42 U.S.C. § 1983 (Monell doctrine)",
+      "text": "Local governments and municipalities can be held liable under Section 1983 when an official policy or custom causes a constitutional violation. This includes ordinances, regulations, and persistent practices that deprive individuals of their constitutional rights. A municipality may be liable when the constitutional violation results from a policy statement, ordinance, regulation, or decision officially adopted by the municipality's officers."
+    }
+  ]
+}

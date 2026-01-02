@@ -1,0 +1,20 @@
+{
+  "title": "Texas Constitution - Property Rights",
+  "citation": "Tex. Const. art. I, § 17",
+  "jurisdiction": "state",
+  "authorityLevel": "constitution",
+  "effectiveFrom": "1876-02-15",
+  "text": "The Texas Constitution provides strong protections for private property rights. Article I, Section 17 limits the government's power to take or damage private property and requires just compensation when such action is necessary for public use.",
+  "sections": [
+    {
+      "heading": "Taking of Property for Public Use",
+      "citation": "Tex. Const. art. I, § 17(a)",
+      "text": "No person's property shall be taken, damaged, or destroyed for or applied to public use without adequate compensation being made, unless by the consent of such person, and only if the taking, damage, or destruction is for the ownership, use, and enjoyment of the property by the State, a political subdivision of the State, the public at large, or entities granted the power of eminent domain under law, or for the elimination of urban blight on a particular parcel of property."
+    },
+    {
+      "heading": "Limitations on Regulatory Takings",
+      "citation": "Tex. Const. art. I, § 17(b)",
+      "text": "The Texas Constitution protects property owners from excessive regulation that effectively takes their property without compensation. Government regulations that go too far in restricting property use may constitute a regulatory taking requiring compensation. This protection extends to restrictions on the rental or leasing of private property."
+    }
+  ]
+}

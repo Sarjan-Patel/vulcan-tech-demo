@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { ExternalLink, Network } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import {
@@ -16,6 +17,7 @@ interface CitationBadgeProps {
   citation: Citation;
   onClick?: () => void;
   showGraphLink?: boolean;
+  onViewInGraph?: () => void;
 }
 
 const jurisdictionColors = {
@@ -24,8 +26,19 @@ const jurisdictionColors = {
   municipal: 'text-municipal border-municipal/30 bg-municipal/10 hover:bg-municipal/20',
 };
 
-export function CitationBadge({ citation, onClick, showGraphLink = false }: CitationBadgeProps) {
+export function CitationBadge({ citation, onClick, showGraphLink = false, onViewInGraph }: CitationBadgeProps) {
   const [isHovered, setIsHovered] = useState(false);
+  const router = useRouter();
+
+  const handleViewInGraph = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (onViewInGraph) {
+      onViewInGraph();
+    } else {
+      // Navigate to graph page with citation info as query params
+      router.push(`/graph?highlight=${encodeURIComponent(citation.citation)}`);
+    }
+  };
 
   return (
     <TooltipProvider>
@@ -60,10 +73,13 @@ export function CitationBadge({ citation, onClick, showGraphLink = false }: Cita
                 {citation.jurisdiction}
               </Badge>
               {showGraphLink && (
-                <span className="flex items-center gap-1 text-xs text-brand">
+                <button
+                  onClick={handleViewInGraph}
+                  className="flex items-center gap-1 text-xs text-brand hover:text-brand/80 hover:underline cursor-pointer"
+                >
                   <Network className="h-3 w-3" />
                   View in graph
-                </span>
+                </button>
               )}
             </div>
           </div>

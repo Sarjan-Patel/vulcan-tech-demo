@@ -1,0 +1,30 @@
+{
+  "title": "Austin Fair Housing Ordinance",
+  "citation": "Austin Code § 5-3-1",
+  "jurisdiction": "municipal",
+  "authorityLevel": "ordinance",
+  "effectiveFrom": "2014-06-01",
+  "text": "The City of Austin Fair Housing Ordinance extends protections beyond federal and state fair housing laws. This ordinance adds source of income as a protected class and prohibits discrimination against tenants using housing vouchers.",
+  "sections": [
+    {
+      "heading": "Purpose and Policy",
+      "citation": "Austin Code § 5-3-1(A)",
+      "text": "It is the policy of the City of Austin to provide fair housing throughout the city. The city council finds that discriminatory housing practices harm individuals, families, and the community as a whole. This ordinance is intended to complement and supplement federal and state fair housing laws while providing additional local protections."
+    },
+    {
+      "heading": "Source of Income Protection",
+      "citation": "Austin Code § 5-3-1(B)",
+      "text": "It shall be unlawful to discriminate in the sale or rental of housing based on source of income. Source of income includes housing choice vouchers (Section 8), veterans benefits, social security, disability benefits, child support, and any other lawful source of income. Landlords may not refuse to rent or establish different terms based on the use of a housing voucher. This protection applies to all housing including short-term rentals."
+    },
+    {
+      "heading": "Additional Protected Classes",
+      "citation": "Austin Code § 5-3-1(C)",
+      "text": "In addition to the protected classes under federal and state law, the City of Austin prohibits housing discrimination based on: sexual orientation, gender identity, student status, and marital status. These protections apply to all housing transactions including rentals, sales, and lending."
+    },
+    {
+      "heading": "Enforcement and Penalties",
+      "citation": "Austin Code § 5-3-1(D)",
+      "text": "The Austin Human Rights Commission is authorized to investigate complaints of housing discrimination and to hold hearings on violations. Penalties for violation include fines of up to $500 per violation and injunctive relief. Complainants may also pursue private civil actions in state court. The city may refer matters to HUD or the Texas Workforce Commission for additional enforcement."
+    }
+  ]
+}

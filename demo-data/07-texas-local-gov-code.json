@@ -1,0 +1,25 @@
+{
+  "title": "Texas Local Government Code - Municipal Authority",
+  "citation": "Tex. Loc. Gov't Code § 51.001",
+  "jurisdiction": "state",
+  "authorityLevel": "statute",
+  "effectiveFrom": "1987-09-01",
+  "text": "The Texas Local Government Code defines the powers and limitations of municipalities in Texas. While granting broad police powers, it also establishes the boundaries within which cities must operate, subject to state preemption.",
+  "sections": [
+    {
+      "heading": "General Powers of Municipality",
+      "citation": "Tex. Loc. Gov't Code § 51.001",
+      "text": "The governing body of a municipality may adopt, publish, amend, or repeal an ordinance, rule, or police regulation that is for the good government, peace, or order of the municipality and is necessary or proper for carrying out a power granted to the municipality. However, municipal ordinances must not conflict with the constitution or laws of this state."
+    },
+    {
+      "heading": "Limitation on Municipal Powers",
+      "citation": "Tex. Loc. Gov't Code § 51.002",
+      "text": "A municipality may not adopt an ordinance that conflicts with a state statute. When state law occupies a field of regulation, municipalities are preempted from enacting conflicting local regulations. The Texas legislature may expressly or impliedly preempt municipal regulation in specific areas, including property rights and landlord-tenant relations."
+    },
+    {
+      "heading": "Zoning Authority",
+      "citation": "Tex. Loc. Gov't Code § 211.003",
+      "text": "A municipality may regulate the height, number of stories, and size of buildings and other structures, the percentage of a lot that may be occupied, the size of yards, courts, and other open spaces, population density, and the location and use of buildings, structures, and land for trade, industry, residence, or other purposes. However, zoning regulations must be adopted in accordance with a comprehensive plan and may not conflict with state property rights protections."
+    }
+  ]
+}

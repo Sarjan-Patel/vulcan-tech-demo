@@ -1,0 +1,30 @@
+{
+  "title": "Austin Zoning Code - Residential Use Regulations",
+  "citation": "Austin Code § 25-2-3",
+  "jurisdiction": "municipal",
+  "authorityLevel": "ordinance",
+  "effectiveFrom": "2019-01-01",
+  "text": "The Austin Zoning Code regulates land use within the city limits, including permitted uses in residential zoning districts. This code works in conjunction with the STR ordinance to regulate short-term rental activity in different zones.",
+  "sections": [
+    {
+      "heading": "Single-Family Residential District (SF)",
+      "citation": "Austin Code § 25-2-3(A)",
+      "text": "The single-family residential zoning district is intended to preserve neighborhood character and provide for low-density residential development. Permitted uses include single-family dwellings, home occupations, and accessory dwelling units. Short-term rentals are permitted only with a Type 1 (owner-occupied) license. Commercial lodging uses are prohibited."
+    },
+    {
+      "heading": "Multi-Family Residential District (MF)",
+      "citation": "Austin Code § 25-2-3(B)",
+      "text": "Multi-family residential districts allow higher density residential development including apartments and condominiums. Short-term rentals are permitted in MF districts subject to licensing requirements. Both Type 1 and Type 2 STR licenses may be issued in MF zones, subject to density limitations of no more than 3% of units in a building being used as STRs."
+    },
+    {
+      "heading": "Home Occupation Regulations",
+      "citation": "Austin Code § 25-2-3(C)",
+      "text": "Home occupations are permitted in residential zoning districts provided they are clearly incidental and secondary to the residential use of the property. A short-term rental operated by an owner-occupant may qualify as a home occupation. Non-owner-occupied rentals do not qualify as home occupations and are subject to separate STR regulations."
+    },
+    {
+      "heading": "Enforcement and Variances",
+      "citation": "Austin Code § 25-2-3(D)",
+      "text": "The Director of Development Services is authorized to enforce zoning regulations and may issue notices of violation for unpermitted uses. Property owners may apply for a variance from the Board of Adjustment if they can demonstrate hardship. However, variances may not be granted to authorize uses that conflict with state law or that would violate the Texas Property Code's protections for property owner rights."
+    }
+  ]
+}

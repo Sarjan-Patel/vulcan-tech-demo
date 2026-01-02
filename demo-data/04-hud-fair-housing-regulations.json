@@ -1,0 +1,25 @@
+{
+  "title": "HUD Fair Housing Regulations",
+  "citation": "24 C.F.R. § 100",
+  "jurisdiction": "federal",
+  "authorityLevel": "regulation",
+  "effectiveFrom": "1989-01-23",
+  "text": "The Department of Housing and Urban Development regulations implementing the Fair Housing Act. These regulations provide detailed guidance on what constitutes housing discrimination and establish procedures for filing and investigating fair housing complaints.",
+  "sections": [
+    {
+      "heading": "Discriminatory Housing Practices",
+      "citation": "24 C.F.R. § 100.50",
+      "text": "It shall be unlawful, because of race, color, religion, sex, handicap, familial status, or national origin, to restrict or attempt to restrict the choices of a person by word or conduct in connection with seeking, negotiating for, buying or renting a dwelling so as to perpetuate, or tend to perpetuate, segregated housing patterns, or to discourage or obstruct choices in a community, neighborhood or development."
+    },
+    {
+      "heading": "Interference, Coercion or Intimidation",
+      "citation": "24 C.F.R. § 100.400",
+      "text": "It shall be unlawful to coerce, intimidate, threaten, or interfere with any person in the exercise or enjoyment of, or on account of that person having exercised or enjoyed, or on account of that person having aided or encouraged any other person in the exercise or enjoyment of, any right granted or protected by this part. This section protects individuals who assert their fair housing rights from retaliation."
+    },
+    {
+      "heading": "Local Government Obligations",
+      "citation": "24 C.F.R. § 100.70",
+      "text": "State and local governments have an obligation to affirmatively further fair housing. Municipal ordinances and regulations that have a discriminatory effect on protected classes may violate the Fair Housing Act, even if the ordinance appears neutral on its face. Local governments must analyze the fair housing implications of their zoning and land use decisions."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Austin Short-Term Rental Ordinance",
+  "citation": "Austin Code § 25-2-788",
+  "jurisdiction": "municipal",
+  "authorityLevel": "ordinance",
+  "effectiveFrom": "2021-12-31",
+  "text": "The City of Austin regulates short-term rentals through a licensing and permitting system. This ordinance establishes different types of STR licenses based on owner occupancy status, with more restrictive requirements for non-owner-occupied properties. NOTE: This ordinance may conflict with Texas Property Code § 5.003 which prohibits owner-occupancy requirements.",
+  "sections": [
+    {
+      "heading": "Short-Term Rental License Required",
+      "citation": "Austin Code § 25-2-788(A)",
+      "text": "A person may not advertise or operate a short-term rental without first obtaining a short-term rental license from the City. Short-term rental means a rental of a residential unit or accessory dwelling unit for a period of less than 30 consecutive days. The license requirement applies to all platforms including Airbnb, VRBO, and direct bookings."
+    },
+    {
+      "heading": "Owner-Occupied STR License (Type 1)",
+      "citation": "Austin Code § 25-2-788(B)",
+      "text": "An owner-occupied short-term rental license (Type 1) is available for properties where the owner maintains the property as their primary residence and is present during rental periods or resides on the property for at least 51% of the calendar year. Type 1 licenses are available in all residential zoning districts without density limitations."
+    },
+    {
+      "heading": "Non-Owner-Occupied STR License (Type 2)",
+      "citation": "Austin Code § 25-2-788(C)",
+      "text": "A non-owner-occupied short-term rental license (Type 2) is required for properties where the owner does not reside on the property. Type 2 licenses are subject to density limitations and are prohibited in certain residential zoning districts. New Type 2 licenses are not being issued in single-family residential zones. POTENTIAL CONFLICT: This provision may violate Texas Property Code § 5.003 which prohibits municipalities from requiring owner-occupancy as a condition of renting property."
+    },
+    {
+      "heading": "Phase-Out of Non-Owner-Occupied STRs",
+      "citation": "Austin Code § 25-2-788(D)",
+      "text": "Existing Type 2 (non-owner-occupied) short-term rental licenses in residential zoning districts shall be phased out and are not transferable upon sale of the property. No new Type 2 licenses shall be issued in single-family residential zones. This effectively prohibits investment properties from being used as short-term rentals. WARNING: This section likely conflicts with Texas Property Code § 5.003-5.004 regarding state preemption of STR regulations."
+    },
+    {
+      "heading": "Penalties and Enforcement",
+      "citation": "Austin Code § 25-2-788(E)",
+      "text": "Violation of this ordinance is a Class C misdemeanor punishable by a fine of up to $500 per day per violation. The City may also revoke or suspend an STR license for violations. Operating without a license or in violation of license conditions subjects the property owner to enforcement action and may result in permanent ineligibility for future licenses."
+    }
+  ]
+}

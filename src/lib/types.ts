@@ -50,6 +50,12 @@ export interface AnalysisResponse {
   suggestions: Suggestion[];
   citations: Citation[];
   timestamp: Date;
+  metadata?: {
+    documentsRetrieved: number;
+    conflictsDetected: number;
+    reasoningSteps: number;
+    toolCalls: string[];
+  };
 }
 
 export interface Message {

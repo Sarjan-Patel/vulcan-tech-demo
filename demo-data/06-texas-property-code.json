@@ -1,0 +1,25 @@
+{
+  "title": "Texas Property Code - Landlord-Tenant Relations",
+  "citation": "Tex. Prop. Code § 5.001",
+  "jurisdiction": "state",
+  "authorityLevel": "statute",
+  "effectiveFrom": "2023-09-01",
+  "text": "The Texas Property Code governs the relationship between landlords and tenants, including the rights of property owners to rent their properties. Chapter 5 establishes fundamental property rights and limits municipal regulation of rental properties.",
+  "sections": [
+    {
+      "heading": "Property Owner Rights",
+      "citation": "Tex. Prop. Code § 5.001",
+      "text": "A property owner has the right to lease, rent, or otherwise allow the use of the owner's property by another person for consideration. This right is fundamental to property ownership in Texas and may not be unreasonably restricted by municipal ordinance or regulation. The state legislature has expressly preserved the right of property owners to engage in rental activities."
+    },
+    {
+      "heading": "Limitation on Municipal Regulation",
+      "citation": "Tex. Prop. Code § 5.003",
+      "text": "A municipality may not adopt or enforce an ordinance that prohibits or restricts a property owner from renting the owner's property based on the owner's residency status or require owner-occupancy as a condition of renting residential property. This section expressly preempts local ordinances that impose owner-occupancy requirements for short-term or long-term rentals. Any municipal ordinance that conflicts with this section is void and unenforceable."
+    },
+    {
+      "heading": "Short-Term Rental Preemption",
+      "citation": "Tex. Prop. Code § 5.004",
+      "text": "The state legislature finds that uniform regulation of short-term rentals is necessary to protect property rights across Texas. A municipality may regulate short-term rentals for health and safety purposes, but may not impose regulations that effectively prohibit short-term rental activity or discriminate against non-owner-occupied rental properties. Permitted municipal regulations include noise ordinances, parking requirements, and occupancy limits that apply equally to all residential properties."
+    }
+  ]
+}

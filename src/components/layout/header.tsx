@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Scale, MessageSquare, Network, Menu, X } from 'lucide-react';
+import { Scale, MessageSquare, Network, Menu, X, Upload, Workflow } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { useState } from 'react';
@@ -10,6 +10,8 @@ import { useState } from 'react';
 const navLinks = [
   { href: '/chat', label: 'Analyze', icon: MessageSquare },
   { href: '/graph', label: 'Explore', icon: Network },
+  { href: '/ingest', label: 'Ingest', icon: Upload },
+  { href: '/architecture', label: 'Architecture', icon: Workflow },
 ];
 
 export function Header() {
