@@ -44,8 +44,8 @@ export async function insertS3Object(data: {
   contentType: string;
   fileSizeBytes?: number;
 }): Promise<S3Object> {
-  const { data: result, error } = await supabase
-    .from('s3_objects')
+  const { data: result, error } = await (supabase
+    .from('s3_objects') as any)
     .insert({
       key: data.key,
       source: data.source,
@@ -94,8 +94,8 @@ export async function insertDocument(data: {
   effectiveFrom: string;
   effectiveTo?: string | null;
 }): Promise<Document> {
-  const { data: result, error } = await supabase
-    .from('documents')
+  const { data: result, error } = await (supabase
+    .from('documents') as any)
     .insert({
       title: data.title,
       jurisdiction: data.jurisdiction,
@@ -115,8 +115,8 @@ export async function updateDocumentCurrentVersion(
   documentId: string,
   versionId: string
 ): Promise<void> {
-  const { error } = await supabase
-    .from('documents')
+  const { error } = await (supabase
+    .from('documents') as any)
     .update({ current_version_id: versionId })
     .eq('id', documentId);
 
@@ -156,8 +156,8 @@ export async function insertDocumentVersion(data: {
   s3ObjectId?: string | null;
   versionNumber?: number;
 }): Promise<DocumentVersion> {
-  const { data: result, error } = await supabase
-    .from('document_versions')
+  const { data: result, error } = await (supabase
+    .from('document_versions') as any)
     .insert({
       document_id: data.documentId,
       effective_from: data.effectiveFrom,
@@ -191,8 +191,8 @@ export async function insertSection(data: {
   citation: string;
   heading: string;
 }): Promise<Section> {
-  const { data: result, error } = await supabase
-    .from('sections')
+  const { data: result, error } = await (supabase
+    .from('sections') as any)
     .insert({
       document_id: data.documentId,
       citation: data.citation,
@@ -225,8 +225,8 @@ export async function insertSectionVersion(data: {
   text: string;
   tokenCount: number;
 }): Promise<SectionVersion> {
-  const { data: result, error } = await supabase
-    .from('section_versions')
+  const { data: result, error } = await (supabase
+    .from('section_versions') as any)
     .insert({
       section_id: data.sectionId,
       document_version_id: data.documentVersionId,
@@ -265,8 +265,8 @@ export async function insertVectorChunk(data: {
   // Convert embedding array to Postgres vector format
   const embeddingStr = `[${data.embedding.join(',')}]`;
 
-  const { data: result, error } = await supabase
-    .from('vector_chunks')
+  const { data: result, error } = await (supabase
+    .from('vector_chunks') as any)
     .insert({
       section_version_id: data.sectionVersionId,
       chunk_index: data.chunkIndex,
@@ -326,8 +326,8 @@ export async function insertGraphNode(data: {
   documentId?: string | null;
   sectionId?: string | null;
 }): Promise<GraphNode> {
-  const { data: result, error } = await supabase
-    .from('graph_nodes')
+  const { data: result, error } = await (supabase
+    .from('graph_nodes') as any)
     .insert({
       label: data.label,
       node_type: data.nodeType,
@@ -380,8 +380,8 @@ export async function insertGraphEdge(data: {
   severity?: SeverityLevel | null;
   rationale?: string | null;
 }): Promise<GraphEdge> {
-  const { data: result, error } = await supabase
-    .from('graph_edges')
+  const { data: result, error } = await (supabase
+    .from('graph_edges') as any)
     .insert({
       source_node_id: data.sourceNodeId,
       target_node_id: data.targetNodeId,

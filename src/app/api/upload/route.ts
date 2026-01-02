@@ -1,7 +1,7 @@
 // API route for S3 file upload
 import { NextRequest, NextResponse } from 'next/server';
 import { PutObjectCommand, GetObjectCommand } from '@aws-sdk/client-s3';
-import { s3Client, S3_BUCKET_NAME } from '@/lib/s3/client';
+import { s3Client, getS3BucketName } from '@/lib/s3/client';
 import crypto from 'crypto';
 import type { CorpusSource } from '@/lib/ingestion/types';
 
@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
 
     // Upload to S3
     const command = new PutObjectCommand({
-      Bucket: S3_BUCKET_NAME,
+      Bucket: getS3BucketName(),
       Key: key,
       Body: buffer,
       ContentType: contentType,
@@ -90,7 +90,7 @@ export async function GET(request: NextRequest) {
     }
 
     const command = new GetObjectCommand({
-      Bucket: S3_BUCKET_NAME,
+      Bucket: getS3BucketName(),
       Key: key,
     });
 

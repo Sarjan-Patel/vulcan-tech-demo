@@ -48,8 +48,8 @@ export async function POST(request: NextRequest) {
 
     if (action === 'createSession') {
       // Create a new chat session
-      const { data: session, error } = await supabase
-        .from('chat_sessions')
+      const { data: session, error } = await (supabase
+        .from('chat_sessions') as any)
         .insert({ title: title || 'New Chat' })
         .select()
         .single();
@@ -66,8 +66,8 @@ export async function POST(request: NextRequest) {
         );
       }
 
-      const { data: message, error: messageError } = await supabase
-        .from('chat_messages')
+      const { data: message, error: messageError } = await (supabase
+        .from('chat_messages') as any)
         .insert({
           session_id: sessionId,
           role,
@@ -89,8 +89,8 @@ export async function POST(request: NextRequest) {
         updateData.title = title;
       }
 
-      await supabase
-        .from('chat_sessions')
+      await (supabase
+        .from('chat_sessions') as any)
         .update(updateData)
         .eq('id', sessionId);
 

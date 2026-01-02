@@ -151,8 +151,8 @@ export async function search_documents(query: string): Promise<{
 
   // Search across multiple terms (limit to top 5 keywords for performance)
   for (const term of keywords.slice(0, 5)) {
-    const { data: sections, error } = await supabase
-      .from('section_versions')
+    const { data: sections, error } = await (supabase
+      .from('section_versions') as any)
       .select(`
         id,
         text,
@@ -231,8 +231,8 @@ export async function query_graph(documentIds: string[]): Promise<GraphContext> 
   console.log('[Tool: query_graph] Document IDs:', documentIds);
 
   // Get nodes for the documents
-  const { data: nodes, error: nodesError } = await supabase
-    .from('graph_nodes')
+  const { data: nodes, error: nodesError } = await (supabase
+    .from('graph_nodes') as any)
     .select('id, node_type, label, jurisdiction, authority_level')
     .in('entity_id', documentIds);
 
@@ -241,7 +241,7 @@ export async function query_graph(documentIds: string[]): Promise<GraphContext> 
     return { nodes: [], edges: [], conflicts: [] };
   }
 
-  const graphNodes: GraphNode[] = (nodes || []).map((n) => ({
+  const graphNodes: GraphNode[] = (nodes || []).map((n: any) => ({
     id: n.id,
     nodeType: n.node_type as 'document' | 'section',
     label: n.label,
@@ -250,11 +250,11 @@ export async function query_graph(documentIds: string[]): Promise<GraphContext> 
   }));
 
   // Get all nodes if we don't have specific ones (for conflict detection)
-  const { data: allNodes } = await supabase
-    .from('graph_nodes')
+  const { data: allNodes } = await (supabase
+    .from('graph_nodes') as any)
     .select('id, node_type, label, jurisdiction, authority_level');
 
-  const allGraphNodes: GraphNode[] = (allNodes || []).map((n) => ({
+  const allGraphNodes: GraphNode[] = (allNodes || []).map((n: any) => ({
     id: n.id,
     nodeType: n.node_type as 'document' | 'section',
     label: n.label,
@@ -263,8 +263,8 @@ export async function query_graph(documentIds: string[]): Promise<GraphContext> 
   }));
 
   // Get edges (relationships)
-  const { data: edges, error: edgesError } = await supabase
-    .from('graph_edges')
+  const { data: edges, error: edgesError } = await (supabase
+    .from('graph_edges') as any)
     .select('id, source_node_id, target_node_id, edge_type, severity, rationale');
 
   if (edgesError) {
@@ -272,7 +272,7 @@ export async function query_graph(documentIds: string[]): Promise<GraphContext> 
     return { nodes: allGraphNodes, edges: [], conflicts: [] };
   }
 
-  const graphEdges: GraphEdge[] = (edges || []).map((e) => ({
+  const graphEdges: GraphEdge[] = (edges || []).map((e: any) => ({
     id: e.id,
     sourceId: e.source_node_id,
     targetId: e.target_node_id,
